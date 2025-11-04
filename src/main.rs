@@ -56,8 +56,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Define multiple playlists
     let playlists = vec![
         Playlist::new(
-            "Bangladesh Live TV".to_string(),
+            "Bangladesh".to_string(),
             "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Bangladesh/LiveTV.m3u".to_string()
+        ),
+        Playlist::new(
+            "India".to_string(),
+            "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u".to_string()
+        ),
+        Playlist::new(
+            "Pakistan".to_string(),
+            "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Pakistan/LiveTV.m3u".to_string()
         ),
     ];
 

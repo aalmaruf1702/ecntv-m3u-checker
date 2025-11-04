@@ -1,0 +1,128 @@
+name: 🎯 ECNTV - Auto Validation
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'src/**'
+      - 'Cargo.toml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: "🎯 Checkout ECNTV Repository"
+        uses: actions/checkout@v4
+
+      - name: "⚙️ Setup Rust"
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+          override: true
+
+      - name: "🔨 Build ECNTV Validator"
+        run: |
+          echo "🔨 Building ECNTV Order-Preserving Validator..."
+          cargo build --release --verbose
+          echo "✅ Build completed!"
+          ls -lh target/release/ecntv-validator
+
+      - name: "🚀 Run ECNTV Validation"
+        run: |
+          echo "🚀 Starting ECNTV Multi-Playlist Validation"
+          echo "==========================================="
+          echo "🕐 Started: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          echo "💻 Runner: ${{ runner.os }}"
+          echo "🔢 CPU Cores: $(nproc)"
+          echo "🔒 Order Preservation: ENABLED"
+          echo "==========================================="
+          
+          # Run the validator
+          ./target/release/ecntv-validator
+          
+          echo "==========================================="
+          echo "🏁 Validation process completed"
+          echo "🕐 Finished: $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+      - name: "📊 Display Results"
+        run: |
+          echo "📈 ECNTV VALIDATION RESULTS"
+          echo "==========================="
+          if [ -f "ECNTV_Validated_Playlist.m3u" ]; then
+            TOTAL_STREAMS=$(grep -c "^http" ECNTV_Validated_Playlist.m3u || true)
+            TOTAL_METADATA=$(grep -c "^#EXTINF" ECNTV_Validated_Playlist.m3u || true)
+            FILE_SIZE=$(stat -c%s "ECNTV_Validated_Playlist.m3u")
+            echo "✅ Valid Streams: $TOTAL_STREAMS"
+            echo "📺 Channel Entries: $TOTAL_METADATA"
+            echo "💾 File Size: $(numfmt --to=iec $FILE_SIZE)"
+            echo "🔒 Order Preservation: ✅ Active"
+            echo ""
+            echo "🎬 Sample Channels (in original order):"
+            grep -A1 "^#EXTINF" ECNTV_Validated_Playlist.m3u | head -8 | while read line; do
+              if [[ "$line" == *"#EXTINF"* ]]; then
+                CHANNEL=$(echo "$line" | sed -n 's/.*,\(.*\)/\1/p')
+                echo "   📺 $CHANNEL"
+              fi
+            done
+          else
+            echo "❌ Error: Output file not found!"
+            exit 1
+          fi
+
+      - name: "💾 Commit ECNTV Playlist"
+        run: |
+          echo "🔧 Configuring Git..."
+          git config --local user.email "ecntv@github.com"
+          git config --local user.name "ECNTV Bot"
+          
+          echo "📦 Staging ECNTV playlist..."
+          git add ECNTV_Validated_Playlist.m3u
+          
+          if ! git diff --staged --quiet; then
+            echo "💾 Committing updates..."
+            git commit -m "🎯 ECNTV Auto-Update [$(date -u '+%Y-%m-%d %H:%M UTC')] - Order Preserved"
+            
+            echo "📤 Pushing to repository..."
+            git push
+            echo "✅ ECNTV playlist updated successfully!"
+          else
+            echo "ℹ️  No changes - ECNTV playlist is current"
+          fi
+
+      - name: "📁 Upload ECNTV Artifact"
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecntv-playlist
+          path: ECNTV_Validated_Playlist.m3u
+          retention-days: 7
+
+      - name: "📝 Create ECNTV Summary"
+        run: |
+          echo "## 🎯 ECNTV Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**⏰ Last Updated:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "**🔒 Order Preservation:** ✅ Enabled" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "ECNTV_Validated_Playlist.m3u" ]; then
+            TOTAL_STREAMS=$(grep -c "^http" ECNTV_Validated_Playlist.m3u || true)
+            echo "**✅ Valid Streams:** $TOTAL_STREAMS" >> $GITHUB_STEP_SUMMARY
+            echo "**📁 File:** \`ECNTV_Validated_Playlist.m3u\`" >> $GITHUB_STEP_SUMMARY
+            echo "**🔧 Status:** 🟢 Operational" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**🔧 Status:** 🔴 Validation Failed" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🚫 Active Filters:" >> $GITHUB_STEP_SUMMARY
+          echo "- Adult content removal" >> $GITHUB_STEP_SUMMARY  
+          echo "- cinehub24.com blocking" >> $GITHUB_STEP_SUMMARY
+          echo "- .mp4 format exclusion" >> $GITHUB_STEP_SUMMARY
+          echo "- Original order preservation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "*Automated by ECNTV Validator*" >> $GITHUB_STEP_SUMMARY
