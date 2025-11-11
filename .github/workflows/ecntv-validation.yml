@@ -2,7 +2,7 @@ name: 🎯 ECNTV - Auto Validation
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -125,4 +125,5 @@ jobs:
           echo "- Original order preservation" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
+
           echo "*Automated by ECNTV Validator*" >> $GITHUB_STEP_SUMMARY
