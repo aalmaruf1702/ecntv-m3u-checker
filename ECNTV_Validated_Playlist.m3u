@@ -1,15 +1,15 @@
 #EXTM3U
 #PLAYLIST:ECNTV - Enhanced Content TV
 #GENERATED-BY: ECNTV Validator v2.0
-#VALIDATION-DATE: Day 20467 - 20:15 UTC
+#VALIDATION-DATE: Day 20467 - 20:44 UTC
 #TOTAL-PLAYLISTS: 3
 #TOTAL-STREAMS-CHECKED: 3050
-#TOTAL-VALID-STREAMS: 1758
-#SUCCESS-RATE: 57.6%
+#TOTAL-VALID-STREAMS: 1838
+#SUCCESS-RATE: 60.3%
 #FILTERS-APPLIED: ADULT, .mp4, cinehub24.com
 #ORDER-PRESERVATION: Original channel order maintained
 ########################################
-#EXTINF:-1,🎯 Bangladesh ⚡ [858 valid / 12210 total]
+#EXTINF:-1,🎯 Bangladesh ⚡ [940 valid / 12210 total]
 #EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA",BTV World
 http://103.230.105.252:1935/live/btv/manifest.m3u8
@@ -537,6 +537,8 @@ http://ares.mnet.mk/hls/mnet-sport.m3u8
 https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900000.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ORF_Sport_%2B_Logo_2024.svg/2560px-ORF_Sport_%2B_Logo_2024.svg.png" group-title="Sports",FB | ORF Sport+ HD
 http://212.186.45.34:9981/stream/channelid/906723447?profile=pass
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Puls_24_Logo_2022.svg/1200px-Puls_24_Logo_2022.svg.png" group-title="Sports",FB | Puls 24
+http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 #EXTINF:-1 tvg-logo="https://www.dubaisports.ae/content/dam/Common/brands1/dubaisports.png" group-title="Sports",FB+MIX | Dubai Sports 2
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8b/Dubai_Sports_Logo_in_2023.png" group-title="Sports",FB+MIX | Dubai Sports 3
@@ -707,8 +709,6 @@ https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.
 https://live-bangla.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/76d7d7446ee57ec14ff67c1678725d19" group-title="Latest",Saudia Radio
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/09817ae293eb16b79015ce66c48accbd" group-title="Latest",Hadi TV
-https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/9882913a8d68aa99c0501b64749d6320" group-title="Latest",ABN
 https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f00eda9194eb13e8ef1d1387889173bf" group-title="Religious",RTV Islam
@@ -723,8 +723,6 @@ https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunk
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hkV51ij.png" group-title="Religious",IBN TV
 http://138.68.138.119:8080/live/5a8993709ea19/index.m3u8
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/89KDTm-c-N9GOuG4CK9P7Nc6WcbgGYOLguwblg1254ho2HkuZLkXkH35iuJM19-rng=w240-h480-rw" group-title="Religious",Makkah TV
-https://media2.streambrothers.com:1936/8122/8122/chunklist_w1247854077.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b3/Mercy_TV.jpg" group-title="Religious",Mercy TV
 https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://m1pfxzepyyyj.merlincdn.net/content/6/BJ/169578/logo_50.png" group-title="Religious",Peace TV Bangla
@@ -815,6 +813,8 @@ https://linear-10.frequency.stream/dist/zype/10/hls/master/playlist_1024x576.m3u
 https://rougetv.vedge.infomaniak.com/livecast/rougetv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300022QK_20250630T232443SQUARE.png" group-title="Music",EN | Stingray Remember the 80s
 https://d1imh73yrie9zu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-tqikpnjgwyvj8/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/Super_TV_logo.png" group-title="Music",EN | SUPER TV Media
+https://mirtv.club/live/mirtv/index.m3u8
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23139/surf-roots-tv/logo_20240523_220440_70.png" group-title="Music",EN | Surf Roots TV
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/surf-roots-tv/master.m3u8
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png" group-title="Music",EN | TRACE UK
@@ -855,6 +855,8 @@ https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/81/Atomic_TV_%282022%29.svg" group-title="Music",OTHER | Atomic TV (Romania)
 https://atomic.streamnet.ro/atomictv.m3u8
+#EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23195/hits-mexicanos/logo_20250109_231027_70.png" group-title="Music",OTHER | HITS MEXICANOS
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23040/la-bocina-latina/logo_20231219_214948_65.png" group-title="Music",OTHER | La Bocina Latina
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/la-bocina-latina/master.m3u8
 #EXTINF:-1 tvg-logo="https://tvchannels4all.com/tvonline/madtv.png" group-title="Music",OTHER | MAD
@@ -881,6 +883,12 @@ https://d7i20u8nlyf1b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Unknown",Ekushey TV (480p)
 https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Bangla | 24/7",Doraemon
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Cartoons | 24/7",Gopal Bhar
+https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Cartoons | 24/7",Motu Patlu
+https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Hindi | 24/7",Hindi Movies
 https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Hindi | 24/7",South Movies
@@ -1649,24 +1657,182 @@ http://xown.site/token/stream.php?id=1545805&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwG
 http://xown.site/token/stream.php?id=1483904&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ANMOL-CINEMA.png" group-title="INDIA | INDIA",ZEE ANMOL CINEMA [IN]
 http://xown.site/token/stream.php?id=1483996&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ANMOL.png" group-title="INDIA | INDIA",ZEE ANMOL HD [IN]
-http://xown.site/token/stream.php?id=1483995&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BIHAR-JHARKHAND.png" group-title="INDIA | INDIA",ZEE BIHAR JHARKHAND [IN]
 http://xown.site/token/stream.php?id=1484169&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BISKOPE.png" group-title="INDIA | INDIA",ZEE BISKOPE [IN]
-http://xown.site/token/stream.php?id=1545806&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BOLLWOOD.png" group-title="INDIA | INDIA",ZEE BOLLWOOD [IN]
-http://xown.site/token/stream.php?id=1483911&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CAFE.png" group-title="INDIA | INDIA",ZEE CAFE HD [IN]
-http://xown.site/token/stream.php?id=1545854&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="INDIA | INDIA",ZEE CINEMA HD [IN]
-http://xown.site/token/stream.php?id=1483909&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/zeecinema.png" group-title="INDIA | INDIA",ZEE CINEMA SD [IN]
-http://xown.site/token/stream.php?id=1545855&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ETC-BOLLYWOOD.png" group-title="INDIA | INDIA",ZEE ETC BOLLYWOOD [IN]
-http://xown.site/token/stream.php?id=1483998&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-HINDUSTAN.png" group-title="INDIA | INDIA",ZEE HINDUSTAN [IN]
-http://xown.site/token/stream.php?id=1483999&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-MUSIK.png" group-title="URDU | PAKISTAN",ARY MUSIK [PK]
+http://xown.site/token/stream.php?id=1488731&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/aryqtv.png" group-title="URDU | PAKISTAN",ARY QTV (NA) [PK]
+http://xown.site/token/stream.php?id=1488730&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/aryqtv.png" group-title="URDU | PAKISTAN",ARY QTV [PK]
+http://xown.site/token/stream.php?id=1488729&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-ZAUQ.png" group-title="URDU | PAKISTAN",ARY ZAUQ (NA) [PK]
+http://xown.site/token/stream.php?id=1488735&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-ZINDAGI.png" group-title="URDU | PAKISTAN",ARY ZINDAGI [PK]
+http://xown.site/token/stream.php?id=1488728&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARYQ.jpg" group-title="URDU | PAKISTAN",ARYQ TV [PK]
+http://xown.site/token/stream.php?id=1488800&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/AVT-KHYBER.png" group-title="URDU | PAKISTAN",AVT KHYBER [PK]
+http://xown.site/token/stream.php?id=1488760&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/babytv.png" group-title="URDU | PAKISTAN",BABY TV [PK]
+http://xown.site/token/stream.php?id=1488797&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/BOL-ENTERTAINMEN.png" group-title="URDU | PAKISTAN",BOL ENTERTAINMENT HD [PK]
+http://xown.site/token/stream.php?id=1488776&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/BOL-ENTERTAINMEN.png" group-title="URDU | PAKISTAN",BOL ENTERTAINMENT [PK]
+http://xown.site/token/stream.php?id=1488775&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/BRITSH-MUSLIM.png" group-title="URDU | PAKISTAN",BRITSH MUSLIM EU [PK]
+http://xown.site/token/stream.php?id=1488777&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png" group-title="URDU | PAKISTAN",CARTOON NETWORK [PK]
+http://xown.site/token/stream.php?id=1488769&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/CITY-42.png" group-title="URDU | PAKISTAN",CITY 42 [PK]
+http://xown.site/token/stream.php?id=1488761&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/CITY-44.png" group-title="URDU | PAKISTAN",CITY 44 UK [PK]
+http://xown.site/token/stream.php?id=1488768&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DISCOVER-PAKISTAN.png" group-title="URDU | PAKISTAN",DISCOVER PAKISTAN FHD [PK]
+http://xown.site/token/stream.php?id=1488786&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DISCOVER-PAKISTAN.png" group-title="URDU | PAKISTAN",DISCOVER PAKISTAN [PK]
+http://xown.site/token/stream.php?id=1488794&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DUNYA.png" group-title="URDU | PAKISTAN",DUNYA TV (NA) [PK]
+http://xown.site/token/stream.php?id=1488738&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/EXPRESS-ENT.png" group-title="URDU | PAKISTAN",EXPRESS ENT [PK]
+http://xown.site/token/stream.php?id=1488767&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/EXPRESS-ENT.png" group-title="URDU | PAKISTAN",EXPRESS ENT [PK]
+http://xown.site/token/stream.php?id=1488778&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/FILM-WORLD.png" group-title="URDU | PAKISTAN",FILM WORLD [PK]
+http://xown.site/token/stream.php?id=1488779&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/FILMAX.png" group-title="URDU | PAKISTAN",FILMAX [PK]
+http://xown.site/token/stream.php?id=1488799&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/geokahani.png" group-title="URDU | PAKISTAN",GEO KAHANI [PK]
+http://xown.site/token/stream.php?id=1488710&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO-SUPER.png" group-title="URDU | PAKISTAN",GEO SUPER [PK]
+http://xown.site/token/stream.php?id=1488711&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO.png" group-title="URDU | PAKISTAN",GEO TV (NA) [PK]
+http://xown.site/token/stream.php?id=1488713&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO.png" group-title="URDU | PAKISTAN",GEO TV HD EU [PK]
+http://xown.site/token/stream.php?id=1488714&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO.png" group-title="URDU | PAKISTAN",GEO TV HD [PK]
+http://xown.site/token/stream.php?id=1488712&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO-TV.png" group-title="URDU | PAKISTAN",GEO TV [PK]
+http://xown.site/token/stream.php?id=1488709&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HADI-TV-7.png" group-title="URDU | PAKISTAN",HADI TV 1 [PK]
+http://xown.site/token/stream.php?id=1488780&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HADI-TV-7.png" group-title="URDU | PAKISTAN",HADI TV 2 [PK]
+http://xown.site/token/stream.php?id=1488781&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HADI-TV-7.png" group-title="URDU | PAKISTAN",HADI TV 3 [PK]
+http://xown.site/token/stream.php?id=1488782&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HADI-TV-7.png" group-title="URDU | PAKISTAN",HADI TV 5 [PK]
+http://xown.site/token/stream.php?id=1488783&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HADI-TV-7.png" group-title="URDU | PAKISTAN",HADI TV 6 [PK]
+http://xown.site/token/stream.php?id=1488784&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HADI-TV-7.png" group-title="URDU | PAKISTAN",HADI TV 7 HD [PK]
+http://xown.site/token/stream.php?id=1488785&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HELLO-CANADA.png" group-title="URDU | PAKISTAN",HELLO CANADA [PK]
+http://xown.site/token/stream.php?id=1488705&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HIDAYAT-TV-EU.png" group-title="URDU | PAKISTAN",HIDAYAT TV EU [PK]
+http://xown.site/token/stream.php?id=1488746&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-EUROPE.png" group-title="URDU | PAKISTAN",HUM EUROPE [PK]
+http://xown.site/token/stream.php?id=1488719&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/humeurope.png" group-title="URDU | PAKISTAN",HUM EUROPE [PK]
+http://xown.site/token/stream.php?id=1488727&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-EUROPE.png" group-title="URDU | PAKISTAN",HUM HD [PK]
+http://xown.site/token/stream.php?id=1488720&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="URDU | PAKISTAN",HUM MASALA (NA) [PK]
+http://xown.site/token/stream.php?id=1488722&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="URDU | PAKISTAN",HUM MASALA EU [PK]
+http://xown.site/token/stream.php?id=1488715&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="URDU | PAKISTAN",HUM MASALA EU [PK]
+http://xown.site/token/stream.php?id=1488723&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="URDU | PAKISTAN",HUM MASALA [PK]
+http://xown.site/token/stream.php?id=1488721&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-PASHTO.png" group-title="URDU | PAKISTAN",HUM PASHTO [PK]
+http://xown.site/token/stream.php?id=1488724&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-SITARAY.png" group-title="URDU | PAKISTAN",HUM SITARAY (NA) [PK]
+http://xown.site/token/stream.php?id=1488725&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-SITARAY.png" group-title="URDU | PAKISTAN",HUM SITARAY [PK]
+http://xown.site/token/stream.php?id=1488718&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/humeurope.png" group-title="URDU | PAKISTAN",HUM TV (NA) [PK]
+http://xown.site/token/stream.php?id=1488726&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-EUROPE.png" group-title="URDU | PAKISTAN",HUM TV EUROPE HD [PK]
+http://xown.site/token/stream.php?id=1488716&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-EUROPE.png" group-title="URDU | PAKISTAN",HUM TV [PK]
+http://xown.site/token/stream.php?id=1488717&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HYDER.png" group-title="URDU | PAKISTAN",HYDER TV [PK]
+http://xown.site/token/stream.php?id=1488787&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/IQRA.png" group-title="URDU | PAKISTAN",IQRA TV [PK]
+http://xown.site/token/stream.php?id=1488759&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ISLAM-CH-URDU.png" group-title="URDU | PAKISTAN",ISLAM CH URDU EU [PK]
+http://xown.site/token/stream.php?id=1488788&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ISLAM-CHANNEL-EU.png" group-title="URDU | PAKISTAN",ISLAM CHANNEL EU [PK]
+http://xown.site/token/stream.php?id=1488745&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/JALWA.png" group-title="URDU | PAKISTAN",JALWA [PK]
+http://xown.site/token/stream.php?id=1488766&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/K21.png" group-title="URDU | PAKISTAN",K21 [PK]
+http://xown.site/token/stream.php?id=1488765&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/KANSHI.png" group-title="URDU | PAKISTAN",KANSHI TV EU [PK]
+http://xown.site/token/stream.php?id=1488789&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/KASHISH.png" group-title="URDU | PAKISTAN",KASHISH [PK]
+http://xown.site/token/stream.php?id=1488758&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/KOHENOOR.png" group-title="URDU | PAKISTAN",KOHENOOR TV [PK]
+http://xown.site/token/stream.php?id=1488757&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/KTN.png" group-title="URDU | PAKISTAN",KTN [PK]
+http://xown.site/token/stream.php?id=1488756&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/LTN-FAMILY.png" group-title="URDU | PAKISTAN",LTN FAMILY [PK]
+http://xown.site/token/stream.php?id=1488798&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MADANI-CHNL-BANGLA.png" group-title="URDU | PAKISTAN",MADANI CHNL BANGLA [PK]
+http://xown.site/token/stream.php?id=1488790&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MADANI-CHNL-ENG.png" group-title="URDU | PAKISTAN",MADANI CHNL ENG [PK]
+http://xown.site/token/stream.php?id=1488747&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MADANI-CHNL-URDU.png" group-title="URDU | PAKISTAN",MADANI CHNL URDU [PK]
+http://xown.site/token/stream.php?id=1488762&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-MUSLIM.png" group-title="URDU | PAKISTAN",MTA-MUSLIM TV [PK]
+http://xown.site/token/stream.php?id=1488791&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-WORLD.png" group-title="URDU | PAKISTAN",MTA WORLD [PK]
+http://xown.site/token/stream.php?id=1524572&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-EUROPE.png" group-title="URDU | PAKISTAN",MTA EUROPE [PK]
+http://xown.site/token/stream.php?id=1524571&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-ARABIA.png" group-title="URDU | PAKISTAN",MTA ARABIA [PK]
+http://xown.site/token/stream.php?id=1524570&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-AFRICA-4.png" group-title="URDU | PAKISTAN",MTA AFRICA 4 [PK]
+http://xown.site/token/stream.php?id=1524569&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-AFRICA-4.png" group-title="URDU | PAKISTAN",MTA AFRICA 5 [PK]
+http://xown.site/token/stream.php?id=1524568&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-ASIA-6.png" group-title="URDU | PAKISTAN",MTA ASIA 6 [PK]
+http://xown.site/token/stream.php?id=1524567&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-ASIA-6.png" group-title="URDU | PAKISTAN",MTA ASIA 7 [PK]
+http://xown.site/token/stream.php?id=1524566&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MTA-AMERICA.png" group-title="URDU | PAKISTAN",MTA AMERICA [PK]
+http://xown.site/token/stream.php?id=1524557&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/NEW-VISION.png" group-title="URDU | PAKISTAN",NEW VISION TV EU [PK]
+http://xown.site/token/stream.php?id=1488748&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/nick.png" group-title="URDU | PAKISTAN",NICK [PK]
+http://xown.site/token/stream.php?id=1488755&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/NOOR.png" group-title="URDU | PAKISTAN",NOOR TV [PK]
+http://xown.site/token/stream.php?id=1488754&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/NOORTV.png" group-title="URDU | PAKISTAN",NOORTV [PK]
+http://xown.site/token/stream.php?id=1488763&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PAIGAAM.png" group-title="URDU | PAKISTAN",PAIGAAM TV [PK]
+http://xown.site/token/stream.php?id=1488792&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PEACE-TV-URDU.png" group-title="URDU | PAKISTAN",PEACE TV URDU HD [PK]
+http://xown.site/token/stream.php?id=1488795&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PLAY.png" group-title="URDU | PAKISTAN",PLAY TV [PK]
+http://xown.site/token/stream.php?id=1488793&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PNN.jpg" group-title="URDU | PAKISTAN",PNN [PK]
+http://xown.site/token/stream.php?id=1488796&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAMAA-EU.png" group-title="URDU | PAKISTAN",SAMAA EU [PK]
+http://xown.site/token/stream.php?id=1488741&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAMAA-EU.png" group-title="URDU | PAKISTAN",SAMAA [PK]
+http://xown.site/token/stream.php?id=1488740&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAUDI-CH-QURAN.png" group-title="URDU | PAKISTAN",SAUDI CH QURAN HD [PK]
+http://xown.site/token/stream.php?id=1488743&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAUDI-CH-SUNNA.png" group-title="URDU | PAKISTAN",SAUDI CH SUNNA HD [PK]
+http://xown.site/token/stream.php?id=1488744&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SINDH.png" group-title="URDU | PAKISTAN",SINDH TV [PK]
+http://xown.site/token/stream.php?id=1488753&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/TAKBEER.png" group-title="URDU | PAKISTAN",TAKBEER TV [PK]
+http://xown.site/token/stream.php?id=1488764&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/TV-ONE-EU.png" group-title="URDU | PAKISTAN",TV ONE EU [PK]
+http://xown.site/token/stream.php?id=1488742&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/URDU-1.png" group-title="URDU | PAKISTAN",URDU 1 [PK]
+http://xown.site/token/stream.php?id=1488751&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/Atn%20Bangla1731520005.png" group-title="Uncategorized",Atn Bangla
 http://103.175.242.10:8080/atnbangla/index.m3u8
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/ATN%20News1731520019.png" group-title="Uncategorized",ATN News
@@ -1679,8 +1845,6 @@ http://103.175.242.10:8080/btv/index.m3u8
 http://103.175.242.10:8080/channel24/index.m3u8
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/Channel%20i1731407855.png" group-title="Uncategorized",Channel i
 http://103.175.242.10:8080/channeli/index.m3u8
-#EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/Colors%20HD1731406975.png" group-title="Uncategorized",Colors HD
-http://103.175.242.10:8080/colorshd/index.m3u8
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/Discovery1731407135.png" group-title="Uncategorized",Discovery
 http://103.175.242.10:8080/discovery/index.m3u8
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/Ekattor%20TV1731435020.png" group-title="Uncategorized",Ekattor TV
@@ -1729,7 +1893,7 @@ http://103.175.242.10:8080/zeebangla/index.m3u8
 http://103.175.242.10:8080/zeecinema/index.m3u8
 #EXTINF:-1,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #EXTVLCOPT:network-caching=1000
-#EXTINF:-1,🎯 India ⚡ [864 valid / 932 total]
+#EXTINF:-1,🎯 India ⚡ [862 valid / 932 total]
 #EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPA1-1YPxz2AF2m9I4WjJzaAFJFlJWPtl-tBeRi8Nok16Auw_tuIUzbozhgkbnW751QMOkLs_Ae-42yU270fCHyhn-mSiivpUFHJg8ujBY_txqh1SDSqc24MWfHlJbrbOODkivrkl1JkOhHiKAk4VdWWRGrgyz0eGEe4CoVoag-9QgrPNsh_5Y9RFGIZQ/s320/Picsart_24-10-13_11-33-24-391.jpg" group-title="STREAMING MEDIA",SONY SAB (USA)
 http://206.212.244.71:8080/dwayne.usa@hotmail.com/9MGPKFX7XC/125809
@@ -2072,8 +2236,6 @@ http://200.80.230.124:8000/play/a06o/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="",HBO
 http://185.18.56.26:8888/hbo1/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="",HBO2
-http://200.80.230.124:8000/play/a06q/index.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="",HBO2
 http://185.18.56.26:8888/hbo2/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="",HBO3
 http://185.18.56.26:8888/hbo3/index.m3u8
@@ -2263,8 +2425,6 @@ https://bongoflixbd.top/nagorik.m3u8?user=bongoflix&pass=eaminvai
 https://bongoflixbd.top/tsports.m3u8?user=bongoflix&pass=eaminvai
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Cricket 🏏",Ten_cricket HD 🚨🎯 📡 ⚙️ 📺 🚨
 https://bongoflixbd.top/toffee/ten_cricket.m3u8?user=bongoflix&pass=eaminvai
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Cricket 🏏",Star-sports-SL 1-hd 🚨🎯 📡 ⚙️ 📺 🚨
-https://bongoflixbd.top/bk/27.m3u8?user=bongoflix&pass=eaminvai
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Cricket 🏏",Star-sports-SL 2-hd 🚨🎯 📡 ⚙️ 📺 🚨
 https://bongoflixbd.top/bk/28.m3u8?user=bongoflix&pass=eaminvai
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Cricket 🏏",Sony-Sports-5-HD 🚨🎯 📡 ⚙️ 📺 🚨
@@ -2565,8 +2725,6 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="NEWS INTERNASIONAL",T Global News (Canada)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
-#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="NEWS INTERNASIONAL",BBC News
-https://ythls.armelin.one/channel/UCelk6aHijZq-GJBBB9YpReA.m3u8?v=1
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="NEWS INTERNASIONAL",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/whc9vkT/download-5.png" group-title="NEWS INTERNASIONAL",FOX News (AU) 🛜
@@ -2841,6 +2999,8 @@ https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
 https://powertvkannada.com/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prag_News.png" group-title="News",Prag News (576p)
 http://103.78.149.54:8000/play/a03u/index.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prameya_News_7.png" group-title="News",Prameya News7 (1080p) [Not 24/7]
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/index.m3u8?ads.dpname=distrotv
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PRATIDIN_TIME/images/LOGO_HD/image.png" group-title="News",Pratidin Time (576p)
 https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prime_9_News.png" group-title="News",Prime9 News (1080p)
