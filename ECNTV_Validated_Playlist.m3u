@@ -1,10 +1,10 @@
 #EXTM3U
 #PLAYLIST:ECNTV - Enhanced Content TV
 #GENERATED-BY: ECNTV Validator v2.0
-#VALIDATION-DATE: Day 20475 - 11:19 UTC
+#VALIDATION-DATE: Day 20475 - 11:44 UTC
 #TOTAL-PLAYLISTS: 3
 #TOTAL-STREAMS-CHECKED: 3165
-#TOTAL-VALID-STREAMS: 1803
+#TOTAL-VALID-STREAMS: 1804
 #SUCCESS-RATE: 57.0%
 #FILTERS-APPLIED: ADULT, .mp4, cinehub24.com
 #ORDER-PRESERVATION: Original channel order maintained
@@ -13,6 +13,10 @@
 #EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA",BTV World
 http://103.230.105.252:1935/live/btv/manifest.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="BANGLA",DBC News
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image29282f9d45a183d6.png" group-title="BANGLA",RTV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="BANGLA",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xgfM1sf/2021-06-14-fff22-19-07.jpg" group-title="BANGLA",Channel 9
@@ -181,8 +185,6 @@ https://d2z0ysa6dgxhlc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/pbs-kids-us.png" group-title="Kids",PBS Kids (Hawaii Feed)
 https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/e5/65/b0/e565b090b34dc756072aff0584f6cbab.jpg" group-title="Kids",Toonami Aftermath East
-http://api.toonamiaftermath.com:3000/est/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23131/toonzkids-atfal/logo_20231219_223251_61.png" group-title="Kids",ToonzKids Atfal
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids-arabic/master.m3u8
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23131/toonzkids-ninos/logo_20231219_223332_60.png" group-title="Kids",ToonzKids niños
@@ -1041,6 +1043,8 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Entertainment",FASHION ONE
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Entertainment",Colors HD
+https://padmaonline.duckdns.org:8088/ColorsHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee Bangla (360p)
 http://103.140.254.2:3500/live/625.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Bangla Music",ATN Music
@@ -1441,8 +1445,6 @@ https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 https://22985209144b4ff78289fbb19f55e93e.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_TWDUniverseExperience/playlist.m3u8?ads.wurl_channel=565&ads.wurl_name=TWDUniverseExperience&ads.coppa=0&ads.us_privacy=1---&ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&ads.targetopt=0&ads.plex_token=sQN_f5E2o3f4xpcEPue3&ads.plex_id=5fc705ff2f220e002d5e6bce&ads.ua=okhttp%2F4.9.0&ads.app_bundle=com.plexapp.android&ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&ads.gdpr=0&ads.consent=0&ads.device_type=handset&ads.device_id_type=
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Three_NZ_2023.svg/1024px-Three_NZ_2023.svg.png" group-title="Movies",EN | ThreePlus1
 https://mediapackage-three-plus-1-source.fullscreen.nz/index.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/62/TOONAMI-2025.svg" group-title="Movies",EN | Toonami Aftermath Movie
-http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23195/urban-action-channel/logo_20250205_002523_70.png" group-title="Movies",EN | Urban Action Channel
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Box_Cinema.jpg" group-title="Movies",OTHER | Box Cinama
@@ -1849,12 +1851,10 @@ http://xown.site/token/stream.php?id=1483911&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwG
 http://xown.site/token/stream.php?id=1545854&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="INDIA | INDIA",ZEE CINEMA HD [IN]
 http://xown.site/token/stream.php?id=1483909&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/zeecinema.png" group-title="INDIA | INDIA",ZEE CINEMA SD [IN]
-http://xown.site/token/stream.php?id=1545855&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="INDIA | INDIA",ZEE CINEMA FHD [IN]
-http://xown.site/token/stream.php?id=1483910&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CLASSIC.png" group-title="INDIA | INDIA",ZEE CLASSIC FHD [IN]
 http://xown.site/token/stream.php?id=1483912&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-HINDUSTAN.png" group-title="INDIA | INDIA",ZEE HINDUSTAN [IN]
+http://xown.site/token/stream.php?id=1483999&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/Atn%20Bangla1731520005.png" group-title="Uncategorized",Atn Bangla
 http://103.175.242.10:8080/atnbangla/index.m3u8
 #EXTINF:-1 tvg-logo="http://103.175.242.10/assets/images/ATN%20News1731520019.png" group-title="Uncategorized",ATN News
@@ -1917,7 +1917,7 @@ http://103.175.242.10:8080/tsports1/index.m3u8
 http://103.175.242.10:8080/zeebangla/index.m3u8
 #EXTINF:-1,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #EXTVLCOPT:network-caching=1000
-#EXTINF:-1,🎯 India ⚡ [816 valid / 940 total]
+#EXTINF:-1,🎯 India ⚡ [817 valid / 940 total]
 #EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPA1-1YPxz2AF2m9I4WjJzaAFJFlJWPtl-tBeRi8Nok16Auw_tuIUzbozhgkbnW751QMOkLs_Ae-42yU270fCHyhn-mSiivpUFHJg8ujBY_txqh1SDSqc24MWfHlJbrbOODkivrkl1JkOhHiKAk4VdWWRGrgyz0eGEe4CoVoag-9QgrPNsh_5Y9RFGIZQ/s320/Picsart_24-10-13_11-33-24-391.jpg" group-title="STREAMING MEDIA",SONY SAB (USA)
 http://206.212.244.71:8080/dwayne.usa@hotmail.com/9MGPKFX7XC/125809
@@ -2351,6 +2351,8 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="English News",Fox News Now
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png" group-title="English News",France 24
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="English News",RT Now
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="English News",Sky News
