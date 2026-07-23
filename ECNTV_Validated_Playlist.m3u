@@ -1,18 +1,20 @@
 #EXTM3U
 #PLAYLIST:ECNTV - Enhanced Content TV
 #GENERATED-BY: ECNTV Validator v2.0
-#VALIDATION-DATE: Day 20657 - 19:02 UTC
+#VALIDATION-DATE: Day 20657 - 20:35 UTC
 #TOTAL-PLAYLISTS: 3
 #TOTAL-STREAMS-CHECKED: 2726
-#TOTAL-VALID-STREAMS: 1995
-#SUCCESS-RATE: 73.2%
+#TOTAL-VALID-STREAMS: 2018
+#SUCCESS-RATE: 74.0%
 #FILTERS-APPLIED: ADULT, .mp4, cinehub24.com
 #ORDER-PRESERVATION: Original channel order maintained
 ########################################
-#EXTINF:-1,🎯 Bangladesh ⚡ [1487 valid / 19405 total]
+#EXTINF:-1,🎯 Bangladesh ⚡ [1509 valid / 19405 total]
 #EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Ekhon_Logo.png" group-title="BANGLA",Ekhon tv
+https://stream.ottplus.live/live/ekhon_tv_abr/live/ekhon_tv_hd_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://s6.gifyu.com/images/image27cfa7002786c232.png" group-title="BANGLA",ATN Bangla
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image29282f9d45a183d6.png" group-title="BANGLA",RTV
@@ -695,8 +697,6 @@ https://hlsb-us.god.tv/GODTV/USA-480.m3u8
 http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Live Sports",Live Sports
 http://103.165.93.31:8095/tsports/video.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Live Sports",Live Sports
-http://66.102.126.10:8000/play/a018/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Live Sports",Sharq Game TV
 https://stream.snexus.co/live/SHARQ_GAME_TV/main_stream.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="CARTOON Drama",Gopal Bhar TV
@@ -753,6 +753,8 @@ http://103.175.73.12:8080/live/19/19_0.m3u8
 https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Information",Food Food
 http://103.175.73.12:8080/live/143/143_0.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sony%20BBC%20Earth.jpeg" group-title="Information",Sony BBC Earth HD
+https://stream.ottplus.live/live/bbc_earth_hd_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Information",BBC Earth
 https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Information",BBC Earth
@@ -803,6 +805,8 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png" group-title="SM All TV",q_75,f_webp/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png",Rajdhani TV
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/d/dd/Ekhon_TV_logo.png" group-title="SM All TV",Ekhon TV
+https://stream.ottplus.live/live/ekhon_tv_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Green%20TV.png" group-title="SM All TV",Green TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BadhanStrom/img/refs/heads/main/jhonmobhumitv.png" group-title="SM All TV",JonmoBhumi TV
@@ -1095,6 +1099,8 @@ https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
 https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Bangla%20Cinema%20.png" group-title="Kolkata Bangla Movies",Zee Bangla Cinema
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Bangla%20Cinema%20.png" group-title="Kolkata Bangla Movies",Zee Bangla Cinema
+https://stream.ottplus.live/live/zee_bangla_cinema_abr/live/zee_bangla_cinema_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/c4/Khushboo_Bangla_logo_%282016-present%29.png" group-title="Kolkata Bangla Movies",Khushboo Bangla
 https://cdn-4.pishow.tv/live/1473/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C15wr1RW/Ekushey-Television-Logo-svg.png" group-title="Bangladeshi 🇧🇩",Ekushey TV
@@ -1619,10 +1625,38 @@ https://dl.dropboxusercontent.com/scl/fi/pptiayf3rd0hmehtisbsj/MLSBD.Shop-Mone-R
 https://dl.dropboxusercontent.com/scl/fi/u1tqqxvlnbm9brkdgahui/Parbo.Na.Aami.Chartey.Toke.2017.720p.AMZN.WebRip.AAC2.0.H.264-MovieLinkBD.mkv?rlkey=7b7bs70bhivbglli2yivc29mp&dl=1.mkv
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5Ir8Fw9VI9j1dcMbdBiwSY8wubz.jpg" group-title="Movies - Bangla",Amazon Obhijaan (2009)
 https://dl.dropboxusercontent.com/scl/fi/tcwufcwlesl7weenc2s2t/MovieLinkBD.Amazon.Obhijaan.2017.720p.mkv?rlkey=teexwav1olvy172f87mnf2j35&dl=1.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg" group-title="Movies - English",Hungry (2026) 🆕
+http://ftp.ctgfun.com/English/Hungry%20%282026%29%201080p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Hungry%20%282026%29%201080p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg" group-title="Movies - English",Tuner (2025) 🆕
+http://ftp.ctgfun.com/English/Tuner%20%282025%29%201080p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Tuner%20%282025%29%201080p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/boKxdR9tgXfkazf6yWgiDdleBy0.jpg" group-title="Movies - Hindi",Balan The Boy (2026) 🆕
+http://ftp.ctgfun.com/Indian/Hindi%20Movies/Balan%20The%20Boy%20%282026%29%20Hindi%20720p%20HDTS%20x264%20ESub%20%5BDDN%5D/Balan%20The%20Boy%20%282026%29%20Hindi%20720p%20HDTS%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg" group-title="Movies - Hindi",Welcome to the Jungle (2026) 🆕
+http://ftp.ctgfun.com/Indian/Hindi%20Movies/Welcome%20to%20the%20Jungle%20%282026%29%20Hindi%20720p%20HDTS%20x264%20ESub%20%5BDDN%5D/Welcome%20to%20the%20Jungle%20%282026%29%20Hindi%20720p%20HDTS%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oIQmtByV1LtEQSwM4EpdLTyoSlM.jpg" group-title="Movies - Hindi",CockTail-2 (2026) 🆕
+http://ftp.ctgfun.com/Indian/Hindi%20Movies/CockTail-2%20%282026%29%20Hindi%20720p%20HDTS%20x264%20ESub%20%5BDDN%5D/CockTail-2%20%282026%29%20Hindi%20720p%20HDTS%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/swU1gHR88apVPthor7RVv8AOa1j.jpg" group-title="Movies - Hindi Dubbed",Anali (2026) 🆕
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Anali%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Anali%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/t8VUFFbq68NyoLTuWI9Lj9D7lLK.jpg" group-title="Movies - Hindi Dubbed",Bubblegum (2023) 🆕
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Bubblegum%20%282023%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Bubblegum%20%282023%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AuJT7uChHqkMmGwbgIK3KZXepUj.jpg" group-title="Movies - Hindi Dubbed",Junior (2025) 🆕
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Junior%20%282025%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Junior%20%282025%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aQZ4OxzaYTN7cRN7fALi9BhPucp.jpg" group-title="Movies - Hindi Dubbed",29 (2026)
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/29%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/29%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3QoTnvsbIAAWVXpfHzQKeEQhUi7.jpg" group-title="Movies - Hindi Dubbed",Bhartha Mahasayulaku Wignyapthi (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Bhartha%20Mahasayulaku%20Wignyapthi%20%282026%29%20Hindi%20Telegu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Bhartha%20Mahasayulaku%20Wignyapthi%20%282026%29%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/530ELGtiZKTUpyxEvP2ufzz8bJB.jpg" group-title="Movies - Hindi Dubbed",Dacoit Ek Prem Katha (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Dacoit%20Ek%20Prem%20Katha%20%282026%29%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Dacoit%20Ek%20Prem%20Katha%20%282026%29%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fXSdAujfiRRW6LqekN4FvFQidh3.jpg" group-title="Movies - Hindi Dubbed",Dridam (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Dridam%20%282026%29%20Hindi%20Malayalam%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Dridam%20%282026%29%20Hindi%20Malayalam%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/456FlpiU1iOBnaOxSd783QhZKWw.jpg" group-title="Movies - Hindi Dubbed",Drishyam 3 (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Drishyam%203%20%282026%29%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Drishyam%203%20%282026%29%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/85TcTWInOY8eO2JACpCJW7w0CXt.jpg" group-title="Movies - Hindi Dubbed",DSP Dev 2 (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/DSP%20Dev%202%20%282026%29%20Punjabi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/DSP%20Dev%202%20%282026%29%20Punjabi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8URM569W1ETAeGd33CPkrc6KF1O.jpg" group-title="Movies - Hindi Dubbed",Euphoria (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Euphoria%20%282026%29%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Euphoria%20%282026%29%20Hindi%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dx40U1uLHwBpdbVxIMC57jyIAaf.jpg" group-title="Movies - Hindi Dubbed",Gaayapadda Simham (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Gaayapadda%20Simham%20%282026%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Gaayapadda%20Simham%20%282026%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fq2eQegiFy6JxyM2S2ctm9RbB2G.jpg" group-title="Movies - Hindi Dubbed",Kaalidas-2 (2026)
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Kaalidas-2%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Kaalidas-2%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6U6i4qhgHR1MWkUb6OGQwNpqcZC.jpg" group-title="Movies - Hindi Dubbed",Kara (2026)
@@ -1649,10 +1683,20 @@ http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Nawabs%20Cafe%20A%20story%2
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Patriot%20%282026%29%20Hindi%20Malayalam%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Patriot%20%282026%29%20Hindi%20Malayalam%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tTgiNXkrg9LS6Qjvrnksev7ztIo.jpg" group-title="Movies - Hindi Dubbed",Sattendru Maarudhu Vaanilai (2026)
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Sattendru%20Maarudhu%20Vaanilai%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Sattendru%20Maarudhu%20Vaanilai%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/89Tuu93NTJVef2Y4iATRwlyAO37.jpg" group-title="Movies - Hindi Dubbed",Second Case of Seetharam (2026)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Second%20Case%20of%20Seetharam%20%282026%29%20Hindi%20Kannada%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Second%20Case%20of%20Seetharam%20%282026%29%20Hindi%20Kannada%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mAX1ujOROXtKsOuIg5MbJbotOyD.jpg" group-title="Movies - Hindi Dubbed",TN (2026)
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/TN%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/TN%20%282026%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ssgArgj7qbtZDd8r5P5b7ruVYU4.jpg" group-title="Movies - Hindi Dubbed",Anaganaga (2025)
 http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Anaganaga%20%282025%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Anaganaga%20%282025%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4jFuUoddURp94ZvL7haeunK7fsm.jpg" group-title="Movies - Hindi Dubbed",Kenatha Kanom (2025)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Kenatha%20Kanom%20%282025%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Kenatha%20Kanom%20%282025%29%20Hindi%20Tamil%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg" group-title="Movies - Hindi Dubbed",Mark (2025)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Mark%20%282025%29%20Hindi%20Kannada%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Mark%20%282025%29%20Hindi%20Kannada%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lJ3RvIirE2C7gdBKvPRaoQ3iCo2.jpg" group-title="Movies - Hindi Dubbed",Kumbalangi Nights (2019)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Kumbalangi%20Nights%20%282019%29%20Hindi%20Malayalam%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Kumbalangi%20Nights%20%282019%29%20Hindi%20Malayalam%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rlrqP9JZUzyTf8MJTSXhSLyAAAl.jpg" group-title="Movies - Hindi Dubbed",aa (2017)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/aa/www.1TamilMV.si%20-%20Sabdham%20%282025%29%20Tamil%20HQ%20PreDVD%20-%20720p%20-%20x264%20-%20HQ%20Clean%20Audio%20-%20AAC%20-%20950MB.mkv
 #EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1363489.png" group-title="ARAB | BEIN SPORTS UHD",BEIN SPORTS AFC [AR]
 http://xown.site/token/stream.php?id=1363489&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1363490.png" group-title="ARAB | BEIN SPORTS UHD",BEIN SPORTS 1 AFC [AR]
@@ -2987,7 +3031,7 @@ https://bozztv.com/rongo/rongo-RTV/index.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 #EXTINF:-1,━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #EXTVLCOPT:network-caching=1000
-#EXTINF:-1,🎯 India ⚡ [469 valid / 699 total]
+#EXTINF:-1,🎯 India ⚡ [470 valid / 699 total]
 #EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="News",4TV News (576p)
 https://cdn-4.pishow.tv/live/1007/master.m3u8
@@ -3489,6 +3533,8 @@ https://cdn-4.pishow.tv/live/229/master.m3u8
 https://cdn-1.pishow.tv/live/957/master.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Arihant_TV.png" group-title="Religious",Dharm Sandesh
 https://cdn-2.pishow.tv/live/1455/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jSedjXf.png" group-title="Religious",Dheeran TV (576p)
+https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Divya_Vani.png" group-title="Religious",Divyavani TV (576p)
 https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/c4ItNkB.png" group-title="Religious",Fateh TV (1080p) [Not 24/7]
